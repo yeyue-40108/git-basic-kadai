@@ -1,0 +1,21 @@
+PS C:\Users\ml4w2\OneDrive\デスクトップ\侍> cd "C:\Users\ml4w2\OneDrive\デスクトップ\侍\git_challenge"
+PS C:\Users\ml4w2\OneDrive\デスクトップ\侍\git_challenge> git init
+Initialized empty Git repository in C:/Users/ml4w2/OneDrive/デスクトップ/侍/git_challenge/.git/
+PS C:\Users\ml4w2\OneDrive\デスクトップ\侍\git_challenge> git add hello_world.txt
+PS C:\Users\ml4w2\OneDrive\デスクトップ\侍\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 70c46f1] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\ml4w2\OneDrive\デスクトップ\侍\git_challenge> git add hello_world.txt
+PS C:\Users\ml4w2\OneDrive\デスクトップ\侍\git_challenge> git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello_world.txt
+
+PS C:\Users\ml4w2\OneDrive\デスクトップ\侍\git_challenge> git commit -m "日本語訳を追記"
+[main 1bd5f89] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\ml4w2\OneDrive\デスクトップ\侍\git_challenge> git log --oneline
+1bd5f89 (HEAD -> main) 日本語訳を追記
+70c46f1 hello_world.txtを追加
